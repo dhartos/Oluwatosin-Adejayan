@@ -18,6 +18,7 @@ body {
 .landingpage{
     width: 100%;
     max-width: 1440px;
+    margin: 10px;
 }
 .header {
     width: 100%;
@@ -26,7 +27,9 @@ body {
     color: coral;
     align-items: center;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 .header P {
     font-size: 24px;
@@ -34,6 +37,7 @@ body {
     margin: 0 30px;
     transition: color 0.4s;
     cursor: pointer;
+    padding: 20px;
 }
 .header p:hover{
     color: #0e0401;
@@ -52,6 +56,7 @@ body {
 .about {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -59,8 +64,12 @@ body {
     object-fit: contain;
     object-position: cover;
     width: 100%;
-    max-width: 900px;
+    max-width: 700px;
     height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.aboutimage img:hover {
+    transform: scale(1.1);
 }
 .abouttext {
     max-width: 600px;
@@ -72,7 +81,7 @@ body {
 }
 .abouttext p{
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     line-height: 2;
 }
 .aboutbutton{
@@ -105,7 +114,53 @@ body {
 .mobile h1{
     font-size: 32px;
     font-weight: 700;
+    color: #ffffff;
+}
+.mobile p{
+    font-size: 24px;
 }
 .projectsimages{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.projectsimages img{
+    object-fit: contain;
+    object-position: cover;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.projectsimages img:hover {
+    transform: scale(1.1);
+}
+.projecttext{
+    max-width: 800px;
+}
+.projecttext h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.projecttext p{
+    font-size: 18px;
+    font-weight: 500;
+}
+ul{
+    line-height: 1.8;
+}
+.projecttext a button{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.projecttext a button:hover {
+    background-color: coral;
 }
