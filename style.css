@@ -73,7 +73,7 @@ body {
 .abouttext p{
     font-size: 16px;
     margin-bottom: 20px;
-    line-height: 1.8;
+    line-height: 2;
 }
 .aboutbutton{
     justify-content: space-between;
@@ -91,4 +91,11 @@ body {
 
 .herobutton button:hover {
     background-color: coral;
+}
+.projects h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+.projects p{
+    font-size: 24px;
 }
