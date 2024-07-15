@@ -83,12 +83,12 @@ body {
     margin-top: 10px;
     background-color: #ffffff;
     color: black;
-    border: none;
+    border: thin 2px #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
 }
 
-.herobutton .btn:hover {
-    background-color: darkorange;
+.herobutton button:hover {
+    background-color: coral;
 }
