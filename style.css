@@ -75,3 +75,20 @@ body {
     margin-bottom: 20px;
     line-height: 1.8;
 }
+.aboutbutton{
+    justify-content: space-between;
+}
+.herobutton button {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.herobutton .btn:hover {
+    background-color: darkorange;
+}
