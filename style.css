@@ -45,6 +45,11 @@ body {
 .header a{
     text-decoration: none;
     color: coral;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 30px;
+    transition: color 0.4s;
+    cursor: pointer;
 }
 .header a:hover{
     color: #0e0401;
@@ -74,6 +79,7 @@ body {
     max-width: 700px;
     height: auto;
     transition: transform 0.3s ease-in-out;
+    border-radius: 50px;
 }
 .aboutimage img:hover {
     transform: scale(1.1);
@@ -99,7 +105,7 @@ body {
     margin-top: 10px;
     background-color: #ffffff;
     color: black;
-    border: thin 2px #ffffff;
+    border: none;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -171,5 +177,5 @@ ul{
 
 .contacticon a{
     text-decoration: none;
-    color: #fff
+    color: #fff;
 }
