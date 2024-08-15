@@ -42,6 +42,13 @@ body {
 .header p:hover{
     color: #0e0401;
 }
+.header a{
+    text-decoration: none;
+    color: coral;
+}
+.header a:hover{
+    color: #0e0401;
+}
 .hero p{
     font-size: 24px;
     font-weight: 500;
@@ -108,9 +115,6 @@ body {
 .projects p{
     font-size: 24px;
 }
-.mobile image{
-
-}
 .mobile h1{
     font-size: 32px;
     font-weight: 700;
@@ -163,4 +167,9 @@ ul{
 }
 .projecttext a button:hover {
     background-color: coral;
+}
+
+.contacticon a{
+    text-decoration: none;
+    color: #fff
 }
