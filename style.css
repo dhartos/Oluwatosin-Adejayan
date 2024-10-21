@@ -111,8 +111,17 @@ body {
     text-decoration: none;
 }
 
-.herobutton button:hover {
+.herobutton button:hover, .inactivebutton button:hover {
     background-color: coral;
+    border: 2px solid #ffffff;
+}
+.inactivebutton button {
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 .projects h1{
     font-size: 36px;
@@ -173,9 +182,11 @@ ul{
 }
 .projecttext a button:hover {
     background-color: coral;
+    border: 2px solid #ffffff;
 }
 
 .contacticon a{
     text-decoration: none;
     color: #fff;
 }
+
