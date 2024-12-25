@@ -76,7 +76,7 @@ body {
 .aboutimage img{
     object-fit: contain;
     object-position: cover;
-    max-width: 600px;
+    max-width: 500px;
     height: auto;
     transition: transform 0.3s ease-in-out;
     border-radius: 50px;
