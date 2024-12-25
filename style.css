@@ -71,15 +71,12 @@ body {
 }
 .about {
     width: 100%;
-    display: flex;
     align-items: center;
-    justify-content: center;
 }
 .aboutimage img{
     object-fit: contain;
     object-position: cover;
-    width: 100%;
-    max-width: 700px;
+    max-width: 600px;
     height: auto;
     transition: transform 0.3s ease-in-out;
     border-radius: 50px;
@@ -142,18 +139,16 @@ body {
     font-size: 24px;
 }
 .projectsimages{
-    width: 100%;
     display: flex;
-    gap: 50px;
+    gap: 20px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .projectsimages img{
     object-fit: contain;
     object-position: cover;
-    width: 100%;
-    max-width: 600px;
-    height: auto;
+    max-width: 500px;
     transition: transform 0.3s ease-in-out;
 }
 .projectsimages img:hover {
