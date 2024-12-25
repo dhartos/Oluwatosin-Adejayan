@@ -21,7 +21,7 @@ body {
 }
 .landingpage{
     width: 100%;
-    max-width: 1440px;
+    max-width: 1400px;
     margin: 10px;
 }
 .navbar{
@@ -35,7 +35,6 @@ body {
 .header P {
     font-size: 24px;
     font-weight: 700;
-    margin: 0 30px;
     transition: color 0.4s;
     cursor: pointer;
     padding: 20px;
@@ -48,7 +47,6 @@ body {
     color: coral;
     font-size: 24px;
     font-weight: 700;
-    margin: 0 30px;
     transition: color 0.4s;
     cursor: pointer;
 }
@@ -58,7 +56,6 @@ body {
 .hero p{
     font-size: 24px;
     font-weight: 500;
-    margin: 0 30px;
     user-select: none;
 }
 .heroup h1{
@@ -73,7 +70,7 @@ body {
 .aboutimage img{
     object-fit: contain;
     object-position: cover;
-    max-width: 450px;
+    max-width:600px;
     height: auto;
     transition: transform 0.3s ease-in-out;
     border-radius: 50px;
