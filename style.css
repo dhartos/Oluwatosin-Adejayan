@@ -119,14 +119,29 @@ h1.text-center {
     animation: marquee-animation 25s linear infinite;
 }
 
-@keyframes marquee-animation {
+.hero-description-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-description {
+    display: inline-block;
+    white-space: nowrap; 
+    animation: scroll-text 15s linear infinite; 
+}
+
+@keyframes scroll-text {
     0% {
-        transform: translateX(100%);
+        transform: translateX(100%); 
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-100%); 
     }
 }
+
+
+
+/* nav */
 
 @media (min-width: 992px) {
     .navbar .ms-auto {
